@@ -1,39 +1,48 @@
 body{
-    background-color:#97233F;
+    background-color:#6699CC;
     color: white;
 }
 nav{
-    background-color:#6A3460;
+    background-color: #22C1C3;
 }
-.nav-link {
-    color: white;
-}
-.navbar-brand{
-    color: white;
-}
-.container{
-    background-color:6A3460 ;
-}
-.jumbo{
-    background-color:#6A3460
+
+.jumbotron{
+    background-color:#22C1C3;
 }
 .card{
-    max-width:18rem;
-    margin-bottom:10px;
-    background-color:#6A3460 ;
+    background-color: #22C1C3;
 }
-
-.day {
-    max-height: 300px;
-    
+.btn{
+    background-color:#6699CC;
+    color: white;
 }
-
-footer{
-    background-color: #6A3460;
-}
-
-@media (max-width:960px){
+@media(max-width:960px){
     .day{
         display: none;
     }
 }
+
+.review {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .review img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .review-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .review-author {
+    font-size: 16px;
+    font-style: italic;
+  }
