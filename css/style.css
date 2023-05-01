@@ -1,20 +1,23 @@
 body{
-    background-color:#6699CC;
+    background-color:#5D7CA6;
     color: white;
 }
 nav{
-    background-color: #22C1C3;
+    background-color:#73A2BF;
 }
 
 .jumbotron{
-    background-color:#22C1C3;
+    background-color:#73A2BF;
 }
 .card{
-    background-color: #22C1C3;
+    background-color: #73A2BF;
 }
 .btn{
     background-color:#6699CC;
     color: white;
+}
+.daycolor{
+    height: 300px;
 }
 @media(max-width:960px){
     .day{
@@ -28,6 +31,7 @@ nav{
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    height: 100%;
   }
   
   .review img {
@@ -45,4 +49,8 @@ nav{
   .review-author {
     font-size: 16px;
     font-style: italic;
+  }
+
+  footer{
+    background-color:#73A2BF ;
   }
